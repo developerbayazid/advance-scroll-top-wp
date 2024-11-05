@@ -1,0 +1,83 @@
+.astt_main_area {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.astt_common {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 20px 25px;
+}
+.astt_body_area {
+    flex-basis: 70%;
+    margin-right: 5%;
+}
+.astt_sidebar_area {
+    flex-basis: 25%;
+}
+.astt_main_area h3#title {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-left: 5px solid #ea1a70;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.astt_main_area label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.astt_main_area small {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #535c68;
+}
+
+.astt_main_area input {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+        rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    width: 90%;
+    padding: 15px;
+    border: 0;
+}
+.astt_main_area input[type='color'] {
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+}
+.astt_main_area input[type='submit'] {
+    background: #ea1a70;
+    border: 1px solid #ea1a70;
+    color: #fff;
+    padding: 12px 35px;
+    width: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.astt_main_area input[type='submit']:hover {
+    background: #262626;
+    border: 1px solid #262626;
+    /* color: #fff; */
+}
+
+.astt_main_area > astt_sidebar_area > img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
